@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../01_homework"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "01_HTML_intro_24_04_2023"
+	}
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+.header{
+    height: 400px;
+    background-image: url('./images/Image20230425120039.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 102px;
+    text-align:center;
+}

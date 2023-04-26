@@ -1,0 +1,29 @@
+body{
+background-color: pink;
+font-size: 32px;
+color:whitesmoke;
+margin:0;
+}
+
+
+.outer1{
+height: 200px;
+background-color: blue;
+margin:0 auto 10px;  
+width: 90%;
+border-top: 3px solid black;
+}
+
+.outer2{
+    height: 200px;
+    background-color: green;
+    margin-top: 20px;
+
+}
+.inner1{
+    height: 100px;
+    background-color: red;
+    width: 80px;
+    margin: 13px auto 0;
+
+}
