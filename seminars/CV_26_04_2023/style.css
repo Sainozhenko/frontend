@@ -1,0 +1,19 @@
+img{
+    width: 150px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.experience{
+    width: 100%;
+    border-collapse: collapse;
+}
+.experience,
+.experience tr, 
+.experience th,
+.experience td{
+    border: 1px solid black;
+}
