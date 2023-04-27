@@ -33,21 +33,30 @@ h1 {
     position: relative;
 }
 
-.left, .right {
+.left, .right,.center {
     position: absolute;
-    width: 48%;
-    top: 15px;
+    width: 32%;
+    top: 5px;
+    
+    
 }
 
 .left {
-    left: 15px;
+    left: 5px;
+    text-align: left;
 }
 
 .right {
-    right: 15px;
+    right: 5px;
+    text-align: right;
+}
+.center{
+    left: 33.3%;
+    text-align: center;
+
 }
 
-.left > div, .right > div {
+.left > div, .right > div,.center>div {
     margin: 100px 0;
     border-bottom: 1px solid #e4bb97;
     padding-bottom: 60px;
