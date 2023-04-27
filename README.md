@@ -11,3 +11,5 @@
 - [Homework2](https://github.com/Sainozhenko/frontend/tree/master/02_CSS_Coffee_25_04_2023) 
 
 - [Consultation2](https://github.com/Sainozhenko/frontend/tree/master/seminars/CV_26_04_2023)
+
+- [Work 3](https://github.com/Sainozhenko/frontend/tree/master/seminars/CV_26_04_2023)
