@@ -28,5 +28,38 @@ h1{
     text-align:center;
     color: rgb(3, 150, 100,0.75);
     padding-top: 132px;
+}
 
+.main{
+    position: relative;
+}
+.left, .right{ 
+    position: absolute;
+    width: 48%;
+    top: 15px;
+    
+}
+.left{
+left:15px ;
+}
+
+.right{
+right: 15px;
+}
+
+.left> div,.right>div{
+    margin: 50px 0;
+    border-bottom: 1px solid #a14787;
+    padding-bottom: 60px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.main div > p{
+    text-align: justify;
+    color: #454;
+    padding: 0 5px;
+    line-height: 1.5;
+    text-indent: 30px;
+    font-weight: 500;
 }
