@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form seminar</title>
+</head>
+<body>
+    <h1>Form Seminar</h1>
+    <form action="#" method="post">
+        <label for="name">Name:<span>*</span></label>
+        <input type="text" 
+                id="name" 
+                name="name"
+                placeholder="Enter you name" 
+                required>
+
+        <label for="lastName">Last Name:<span>*</span></label>
+        <input type="text" 
+                id="lastname" 
+                name="lastName"
+                placeholder="Enter you lastName" 
+                required>
+
+        <label for="email">Email:<span>*</span></label>
+        <input type="email"  
+                id="email"
+                name="email"
+                placeholder="Enter you email"
+                required>
+
+        <label for="phone">Phone:<span>*</span></label>
+        <input type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter you phone number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required>
+                <small>Format:123-456-7890</small>
+        <label for="birthdate">Birthday:<span>*</span></label>
+        <input type="date"
+                id="birthdate"
+                name="birthdate"
+                required>
+
+        <label for="gender">Gender:<span>*</span></label>
+        <select name="gender" id="gender" required>
+                <option value="">Select you gender:</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+        </select>
+
+        <label for="newsletter">Subscribe to newsletter</label>
+        <input type="checkbox" 
+                id="newsletter"
+                name="newsletter"
+                value="yes">
+
+        <label for="newsletter">
+                Yes, please subscribe me to your newsletter</label>
+
+        <label for="bio">Bio:</label>
+        <textarea name="bio" 
+                id="bio" 
+                rows="5"
+                placeholder="Enter a brief bio about yourself"></textarea>
+
+        <label for="avatar">Avatar:</label>
+        <input type="file" id="avatar" name="avatar">
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
