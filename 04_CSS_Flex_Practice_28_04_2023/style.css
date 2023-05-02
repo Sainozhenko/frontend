@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 *{
     margin: 0;
 }
 body{
+    font-family: 'Poller One', cursive;
     background-image: url('./images/Image20230428121417.jpg');
     color: #eedb00;
     background-attachment: fixed;
@@ -11,6 +13,13 @@ header{
     background-color: rgba(60,69,67,.6);
     border-radius: 15px 15px 0 0;
     height: 6em;
+}
+
+footer{
+    background-color:rgba(60,69,67,.6);
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+    position: relative;
 }
 
 nav>ul{
@@ -24,4 +33,78 @@ nav>ul{
 h1{
     font-size: 2em;
     text-align: center;
+    padding: 0.5em 0;
+}
+
+.left{
+    float:left;
+    width: 25%;
+    margin: 5px 10px 0 5px;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    margin: 5px 5px 0;
+    border: 1px solid #eedb00;
+    border-radius: 0 0 15px 15px;
+}
+.right h2{
+    text-align: center;
+    width: 100%;
+}
+
+img{
+width: 100%;
+}
+
+.right img{
+    width: 32%;
+}
+
+.bottomleft{
+    border: bottom left radius 15px;
+}
+
+.bottomright{
+    border:bottom right radius 15px;
+}
+
+.galaxy{
+    font-size: 2em;
+    letter-spacing: .2em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.left img{
+    box-shadow: rgba(60,69,67,.6) 10px 10px;
+}
+
+.button{
+    width: 11em;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    left: 22em;
+
+}
+
+.button>p{
+    font-size: .8em;
+    text-align: center;
+    
+}
+
+.email{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+
+.commonButton{
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgba(204,3,35,.5);
+    cursor: pointer;
 }

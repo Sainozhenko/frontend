@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form Example</title>
+</head>
+<body>
+   <h1>Sign up Form</h1> 
+   <form>
+    <label for="name">Name:</label>
+    <input type="text" 
+        id="name" 
+        placeholder="Enter you name" 
+        required>
+
+    <label for="email">Email:</label>
+    <input type="email" 
+        id="email" 
+        placeholder="Enter you email" 
+        required>
+
+    <label for="confirm-password">Confirm Password</label>
+    <input type="password" 
+        id="confirm-password" 
+        placeholder="Confirm you password" 
+        minlength="8"
+        required>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="">Select you gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="bio">Bio:</label>
+        <textarea name="bio" 
+            id="bio"  
+            rows="5"
+            placeholder="Tell us about you self"></textarea>
+
+            <input type="submit" value="Submit" id="submit">
+            <input type="reset" value="Reset" id="reset">
+   </form>
+</body>
+</html>

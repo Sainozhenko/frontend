@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label{
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+input,select,textarea{
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    font-size: .8em;
+    width: 100%;
+}
+
+#submit {
+    width: 25%;
+    color:white;
+    background-color: #4caf50;
+    cursor: pointer;
+    font-size: 1em;
+}
+#reset{
+    width: 25%;
+    color:white;
+    background-color: #ed1d1a;
+    cursor:pointer;
+    font-size: 1em;
+}
