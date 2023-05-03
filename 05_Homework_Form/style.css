@@ -1,0 +1,62 @@
+span{
+    color:red;
+}
+
+#reset,#submit{
+    align-self: center;
+    width: 50%;
+    color: whitesmoke;
+    background-color:red;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+#submit{
+    background-color:green;
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+#gender{
+    font-size: 1.5em;
+    background-color: rgba(240, 252, 255, 0.8);
+}
+
+small{
+    font-size: 15px;
+    
+}
+#comment{
+    background-color: rgba(240, 252, 255, 0.8);
+}
+label{
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 1.5rem;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto; 
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0,0,0,.5);
+    position: relative;
+    overflow: hidden;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="checkbox"],
+input[type="tel"]{
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+background-color: rgba(240, 252, 255, 0.8);
+font-size: 1.2rem;
+}

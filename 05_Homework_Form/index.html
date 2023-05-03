@@ -5,13 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>HomeForm</title>
+    <title>Checking pay</title>
 </head>
 <body>
-    <form action="#"></form>
-        <label for="name" id="name">Name:</label>
-        <input type="name" id="name"  required >
+    <h2>Check you pay</h2>
+    <form action="#">
+        <label for="name">Name:<span>*</span></label>
+        <input type="text" id="name" required placeholder="Enter you name">
     
-    
+        <label for="email">Email:<span>*</span></label>
+        <input type="email" id="email" required placeholder="Enter you email">
+
+        <label for="birthdate">Birthdate:<span>*</span></label>
+        <input type="date" id="birthdate" required placeholder="Enter you date of birthday">
+
+        <label for="Tell">Tel:<span>*</span></label>
+        <input type="tel" id="tel" required placeholder="You number phone" pattern="+[380]{1}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+        <small>Format: +380 66 777 66 55</small>
+
+        <label for="password">Password:<span>*</span></label>
+        <input type="password" id="password" minlength="8" required placeholder="Min.8 chars">
+
+        <label for="gender">Gender:<span>*</span></label>
+        <select name="gender" id="gender" required>
+            <option value=""></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">I don`t know</option>
+        </select>
+
+            <label for="avatar">Check</label>
+            <input type="file" name="avatar" id="avatar">
+
+            <label for="feadback">Call?</label>
+            <input type="checkbox" id="feadback" name="feadback" value="yes">
+
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment"  rows="2" placeholder="You comment not a necessarily"></textarea>
+
+        <input type="submit" value="Submit" id="submit">
+        <input type="reset" value="Reset" id="reset">
+    </form>
 </body>
 </html>
