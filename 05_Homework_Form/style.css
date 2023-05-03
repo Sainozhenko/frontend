@@ -11,14 +11,17 @@ span{
     border-radius: 15px;
     font-size: 1.2rem;
 }
+
 #submit{
     background-color:green;
 }
+
 h2{
     text-align: center;
     margin: 0 auto;
     font-size: 2rem;
 }
+
 #gender{
     font-size: 1.5em;
     background-color: rgba(240, 252, 255, 0.8);
@@ -26,16 +29,18 @@ h2{
 
 small{
     font-size: 15px;
-    
 }
+
 #comment{
     background-color: rgba(240, 252, 255, 0.8);
 }
+
 label{
 font-weight: bold;
 margin-bottom: 5px;
 font-size: 1.5rem;
 }
+
 form{
     display:flex;
     flex-direction: column;
@@ -48,15 +53,16 @@ form{
     position: relative;
     overflow: hidden;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="date"],
 input[type="checkbox"],
 input[type="tel"]{
-padding: 10px;
-margin-bottom: 10px;
-border-radius: 5px;
-background-color: rgba(240, 252, 255, 0.8);
-font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(240, 252, 255, 0.8);
+    font-size: 1.2rem;
 }
