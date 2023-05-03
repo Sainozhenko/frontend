@@ -1,0 +1,61 @@
+.form-container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0,0,0,.5);
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="checkbox"]{
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+/* border:none; */
+background-color: rgba(255,255,255,.8);
+font-size: 1.2rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0077ff;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
+a:active{
+    color: pink;
+}
+
+a:visited{
+    color: green;
+}
+
+.form:first-child:nth-child(0){
+    font-size: 77rem;
+}

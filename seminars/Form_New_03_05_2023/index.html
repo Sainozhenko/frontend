@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Join the club!</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+
+            <label for="passwordConfirm">confirm Password:</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm" minlength="8" required>
+
+            <label for="Birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="interests">Interest:</label>
+            <div class="interests-container">
+                <div class="interests-option">
+                    Чтение:
+                    <input type="checkbox" name="interests[]" id="option1" value="option1">
+                </div>
+                
+                <div class="interests-option">
+                    Игра на гитаре:
+                    <input type="checkbox" name="interests[]" id="option2" value="option2">
+                </div>
+                
+                <div class="interests-option">
+                    Программирование:
+                    <input type="checkbox" name="interests[]" id="option3" value="option3">
+                </div>
+
+                <div class="interests-option">
+                    Психология:
+                    <input type="checkbox" name="interests[]" id="option4" value="option4">
+                </div>
+                <label for="agreement">
+                    Agreeement:
+                </label>
+                <div class="terms-container">
+                    <input type="checkbox" id="agreement" name="agreement">
+                    <label for="agreement">I confirm with <a href="https://www.google.com">terms and condition</a></label>
+                </div>
+                <input type="submit" value="Join in">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
