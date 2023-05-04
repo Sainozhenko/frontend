@@ -10,4 +10,4 @@
 |  28/04/2023   | - [Work4.1](https://github.com/Sainozhenko/frontend/tree/master/04_CSS_Flex_Practice_28_04_2023)         | - [Consultation3](https://github.com/Sainozhenko/frontend/tree/master/Position_28_04_2023) |
 |  02/05/2023   | - [Work5](https://github.com/Sainozhenko/frontend/tree/master/05_CSS_Form_02_05_2023)         | - [Consultation4](https://github.com/Sainozhenko/frontend/tree/master/seminars/Form_02_05_2023) |
 |  03/05/2023   | -[Homework4](https://github.com/Sainozhenko/frontend/tree/master/05_Homework_Form)  | - [Consultation5](https://github.com/Sainozhenko/frontend/tree/master/seminars/Form_New_03_05_2023) |
-|  04/05/2023   | - [Work6](https://github.com/Sainozhenko/frontend/tree/master/06_CSS_Bootstrap_04_05_2023)       | -[Homework4](https://github.com/Sainozhenko/frontend/tree/master/06_HW_Bootstrap) |
+|  04/05/2023   | - [Work6](https://github.com/Sainozhenko/frontend/tree/master/06_CSS_Bootstrap_04_05_2023)       | -[Homework5](https://github.com/Sainozhenko/frontend/tree/master/06_HW_Bootstrap) |
