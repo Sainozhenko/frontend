@@ -126,31 +126,52 @@ console.log(arr);
 //printArray(arr);
 
 
-console.log( 5*'a');
+// console.log( 5*'a');
 
-function printArray(arr){
-for (let i = 0; i < arr.length; index++) {
-    console.log(arr[i]);
-}
-}
+// function printArray(arr){
+//     for (let i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+//     }
+//     }
 
- res = sumDigits(1234);
+    res = sumDigits(6565);
  console.log(`res = ${res}`);
+
+banana();
+
 function sumDigits(a){
-    
+    let sum = 0;
+    const str = a.toString();
+    for (let i = 0; i < str.length; i++) {
+      const element = parseInt(str[i]);
+        sum += element;
+    }
+    return sum;
   }
   
-
-
- res = luckyNumber(123871);
- console.log(res?'Lucky': 'Unlucky');
- 
- function luckyNumber(x) {
-}
-
-console.log(banana());
 function banana(){
     let a = 'a';
     let b = 'b';
-
+    console.log(String.fromCharCode(b.charCodeAt(0),a.charCodeAt(0),110,a.charCodeAt(0),110,a.charCodeAt(0)));
 }
+
+luckyNumber(813444);
+
+
+ function luckyNumber(x) {
+    const str = x.toString();
+    let sum1 = 0, sum2 = 0;
+    for (let i = 0; i < str.length; i++) {
+      if (i < str.length/2) {
+        sum1 += parseInt(str[i]);
+      } else {
+        sum2 += parseInt(str[i]);
+      }
+
+    }
+    if (sum1 == sum2) {
+      console.log("Lucky");
+    } else {
+      console.log("Unlucky");
+    }
+  }
