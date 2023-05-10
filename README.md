@@ -14,3 +14,5 @@
 |  07/05/2023   | - [Work7](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_05_05_2023)      | -[Work7.1](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_Practice_05_05_2023) |
 |  08/05/2023   | - [Work8](https://github.com/Sainozhenko/frontend/tree/master/08_JS_Intro1_08_05_2023)      | -[]() |
 |  09/05/2023   | -     | -[Consultation6](https://github.com/Sainozhenko/frontend/tree/master/seminars/PRIMITIVES_09_05_2023) |
+|  10/05/2023   | -[Work9](https://github.com/Sainozhenko/frontend/tree/master/09_JS_Intro2_10_05_2023)     | -[Consultation7]() |
+
