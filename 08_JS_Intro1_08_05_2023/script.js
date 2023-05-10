@@ -163,9 +163,9 @@ luckyNumber(813444);
     let sum1 = 0, sum2 = 0;
     for (let i = 0; i < str.length; i++) {
       if (i < str.length/2) {
-        sum1 += parseInt(str[i]);
+        sum1 += +(str[i]);
       } else {
-        sum2 += parseInt(str[i]);
+        sum2 += +(str[i]);
       }
 
     }
@@ -175,3 +175,91 @@ luckyNumber(813444);
       console.log("Unlucky");
     }
   }
+  
+  console.log( banan());
+  function banan(){
+    let a = 'a';
+    let b = 'b';
+    return (b+a+(a*b)+a).toLowerCase();
+  }
+
+  //(''+x).split('')
+  //charAt()
+  //1234%10=4
+  //1234%10 = 4
+  //(1234-4)/10
+  //123
+
+// console.log(sumDigitss(1234));
+//   function sumDigitss(x){
+//     let sum =0;
+//     while(x){
+//       sum+=x%10;
+//       x=(x-x%10)/10;
+//     }
+//     return sum;
+//   }
+
+function sumdigits1(x){
+  let sum = 0;
+  for (let i = 0; i < (x+"").length; i++) {
+    sum += +(x+"")[i]; 
+  }
+  return sum;
+}
+
+function sumDigits2(x){
+  let arr = (""+x).split('3');
+  let sum = 0;// 'be or not to be' ('o') => ['Be', 'r n','t t','be'] 
+  for (let i = 0; i < arr.length; i++) {
+   sum += arr[i];
+  }
+  return sum;
+}
+
+
+// console.log( luckyNumber1(444219));
+// function luckyNumber1(x){
+//   if (typeof +x!== 'number' || x<100) return false;
+//   const numberLength = (''+x).length;
+//   //const mid = numberLength%2 === 0?numberLength/2 :(numberLength-1)/2;
+//   const mid = Math.floor(numberLength/2);
+//   const substr1 = (''+x).substring(0,mid);// (star, finish)- start входит в новую подстроку finish не входит
+//  // const substr2 = numberLength %2===0?(''+x).substring(mid):(''+x).substring(mid+1);
+//  const substr2 = (''+x).substring(numberLength - mid);
+//  return sumDigits(+substr1) === sumDigits(+substr2);
+
+// }
+console.log(luckyNumber2(111111));
+function luckyNumber2(x){
+  if(typeof +x !=='number' || x<100) return false;
+  const str = (''+x);
+  const mid =Math.floor((''+x).length/2);
+  let leftSum = 0;
+  let rightSum = 0;
+  for (let i = 0; i < mid; i++) {
+    leftSum+= +str[i];
+    rightSum+= +str[str.length -i -1];
+  }
+  return leftSum === rightSum;
+}
+let counterI = 0;
+let counterJ = 0;
+let arr1 = [1,2,3,6,5,4];
+
+function bubbleSort(arr){
+  for (let i = 0; i < arr.length-1; i++) {
+    counterI++;
+    for (let j = 0; j < arr.length-1 -i; j++) {
+      counterJ++;
+      if(arr[j]- arr[j+1]>0){
+        let temp = arr[j];
+        arr[j]= arr[j+1];
+        arr[j+1] = temp;
+      }
+    }
+  }
+}
+
+bubbleSort(arr1);
+console.log(arr1, counterI, counterJ);
