@@ -11,7 +11,9 @@
 |  02/05/2023   | - [Work5](https://github.com/Sainozhenko/frontend/tree/master/05_CSS_Form_02_05_2023)         | - [Consultation4](https://github.com/Sainozhenko/frontend/tree/master/seminars/Form_02_05_2023) |
 |  03/05/2023   | -[Homework4](https://github.com/Sainozhenko/frontend/tree/master/05_Homework_Form)  | - [Consultation5](https://github.com/Sainozhenko/frontend/tree/master/seminars/Form_New_03_05_2023) |
 |  04/05/2023   | - [Work6](https://github.com/Sainozhenko/frontend/tree/master/06_CSS_Bootstrap_04_05_2023)       | -[Homework5](https://github.com/Sainozhenko/frontend/tree/master/06_HW_Bootstrap) |
-|  07/05/2023   | - [Work7](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_05_05_2023)      | -[Work7.1](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_Practice_05_05_2023) |
-|  08/05/2023   | - [Work8](https://github.com/Sainozhenko/frontend/tree/master/08_JS_Intro1_08_05_2023)      | -[]() |
+|  07/05/2023   | - [Work7](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_05_05_2023)    | -[Work7.1](https://github.com/Sainozhenko/frontend/tree/master/07_JS_Dom1_Practice_05_05_2023) |
+|  08/05/2023   | - [Work8](https://github.com/Sainozhenko/frontend/tree/master/08_JS_Intro1_08_05_2023)  | -[]() |
 |  09/05/2023   | -     | -[Consultation6](https://github.com/Sainozhenko/frontend/tree/master/seminars/PRIMITIVES_09_05_2023) |
-|  10/05/2023   | -[Work9](https://github.com/Sainozhenko/frontend/tree/master/09_JS_Intro2_10_05_2023)     | -[Consultation7]() |
+|  10/05/2023   | -[Work9](https://github.com/Sainozhenko/frontend/tree/master/09_JS_Intro2_10_05_2023)     | -[Consultation7](https://github.com/Sainozhenko/frontend/tree/master/seminars/Objects_12_05_2023) |
+|  11/05/2023   | -[Work10](https://github.com/Sainozhenko/frontend/tree/master/10_JS_Arrays_Func_11_05_2023)| -[] |
+|  12/05/2023   | -[Work11](https://github.com/Sainozhenko/frontend/tree/master/11_JS_Objects_12_05_2023)    | -[] |
