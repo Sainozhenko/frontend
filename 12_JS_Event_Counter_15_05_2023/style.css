@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ button{
+    margin: 0 10px;
+    font-size: 24px; /* 1.5 rem */
+    padding:10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.counter span{
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+ button:hover{
+    background-color: #0056b3;
+    font-size: 28px;
+ }
+
+ #reset{
+    margin: 15px 0 ;
+ }
+ /*
+a:visited{
+    color: pink;
+}
+
+a:active{
+    color: greenyellow;
+} */

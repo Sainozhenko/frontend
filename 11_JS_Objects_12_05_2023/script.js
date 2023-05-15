@@ -35,7 +35,10 @@ const shoppingCart = {
         if (existingItem) {
             existingItem.quantity += item.quantity;
         } else {
+            if(item.name && item.price&& item.quantity){
             this.items.push(item);
+
+            }
         }
         this.updateTotalCoast();
     },
@@ -62,6 +65,12 @@ const shoppingCart = {
 
 add.onclick = addHandler;
 stats.onclick = statsHandler;
+
+add.addEventListener('keydown', (e)=>{
+    if(e.key==='Enter'){
+        console.log('Hello from event listener');
+    }
+})
 
 function addHandler() {
 
@@ -98,17 +107,17 @@ if (shoppingCart.items.length) {
     
         const statsContainer = document.getElementById('statsContainer');
             statsContainer.innerHTML = `
-                <p>Average Price: ${avgPrice.toFixed(2)}</p>
-                <p>Min Price: ${minPrice.toFixed(2)}</p>
-                <p>Max Price: ${maxPrice.toFixed(2)}</p>
+                <p>Average Price: ${avgPrice %1 ? avgPrice.toFixed(2) :avgPrice }</p>
+                <p>Min Price: ${minPrice %1 ? minPrice.toFixed(2): minPrice}</p>
+                <p>Max Price: ${maxPrice%1 ? maxPrice.toFixed(2):maxPrice}</p>
                 <p>Total Quantity: ${totalQuantity}</p>
-                <p>Total Cost: ${totalCoast.toFixed(2)}</p>
+                <p>Total Cost: ${totalCoast%1? totalCoast.toFixed(2):totalCoast}</p>
                 <p>Number of Items: ${itemsQuantity}</p>
             `;
         } 
     else {
     const statsContainer = document.getElementById('statsContainer');
-            statsContainer.innerHTML = "The shopping cart is empty.";
+            statsContainer.innerHTML = 'The shopping cart is empty.';
         }
     }
 
