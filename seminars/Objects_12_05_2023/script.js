@@ -4,14 +4,14 @@ const eComStore = {
         id:1,
         productName:'Product A',
         price:10,
-        category:this.categories[0] || {},
+        category: 'A' || 'B',
         quantity: 5
         }
     ],
     categories: [
     
-        {'A': 'A'},
-        {'B': 'B'}
+        {A: 'A'},
+        {B: 'B'}
     ],
     users:[
         {
@@ -57,10 +57,28 @@ const eComStore = {
 
 
 addProduct.onclick = addProductHandler;
+addProduct.addEventListener('keydown',(e)=>{
+    console.log(e);
+} );
 
-function addProductHandler(productName1, price1, category1,quantity1){
-    console.log(productName.value.trim());
-    productName1 = productName.value.trim();
-    eComStore.addProduct(productName1,price1, category1,quantity1);
+function addProductHandler(){
+    const  productName = document.getElementById('productName').value.trim();
+    const price = document.getElementById('price').value.trim();
+    const  category = document.getElementById('category').value.trim();
+    const  quantity = document.getElementById('quantity').value.trim();
+
+    const addProductList = document.getElementById('addProductList');
+    addProductList.innerHTML = '';
+
+    eComStore.addProduct(productName,price, category,quantity);
+
+    this.products.forEach(e => {
+        const li = document.createElement('li');
+        li.textContent = `ID:${e.id}, 
+        Product Name: ${e.productName},
+        Price: ${e.price},
+        Category: ${e.category},
+        Quantity: ${e.quantity}`;
+    });
+    addProductList.append('li');
     }
-addPerson.onclick = createUser();
