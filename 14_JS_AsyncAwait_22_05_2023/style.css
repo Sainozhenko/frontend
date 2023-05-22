@@ -1,0 +1,7 @@
+#usersList{
+    cursor: pointer;
+    background-color: #ccc;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
