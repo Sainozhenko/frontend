@@ -4,3 +4,20 @@
 h1{
     margin: 25px 0;
 }
+.userDetailsDiv{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.userDetailsDiv>h2{
+    text-align: center;
+}
+body{
+    position: relative;
+}
+/* .userList{
+
+} */
