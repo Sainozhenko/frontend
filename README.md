@@ -20,3 +20,4 @@
 |  15/05/2023   | -[Work12](https://github.com/Sainozhenko/frontend/tree/master/12_JS_Event_Counter_15_05_2023)    | -[Work12.1](https://github.com/Sainozhenko/frontend/tree/master/12_JS_TODO_15_05_2023) |
 |  17/05/2023   | -[Work13](https://github.com/Sainozhenko/frontend/tree/master/13_JS_Promies_17_05_2023)    | -[Work13.1](https://github.com/Sainozhenko/frontend/tree/master/13_JS_JSONPlaceHolder_17_05_2023) |
 |  22/05/2023   | -[Work14](https://github.com/Sainozhenko/frontend/tree/master/14_JS_AsyncAwait_22_05_2023)    | 23/05/2023 -[Consultation9](https://github.com/Sainozhenko/frontend/tree/master/seminars/JSONPLaceHolder_AsyncAwait_23_05_2023) |
+|  24/05/2023   | -[Work15](https://github.com/Sainozhenko/frontend/tree/master/15_JS_WeatherApp_24_05_2023)    | -[Consultation10](https://github.com/Sainozhenko/frontend/tree/master/seminars/Consultation10) |
