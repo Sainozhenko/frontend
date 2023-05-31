@@ -6,8 +6,19 @@ text-align: center;
 
 #btn10{
     font-size: 1.2rem;
+    cursor:pointer;
+    border-radius: 25%;
+
 }
 
 #btn-10{
 font-size: 1.2rem;
+cursor:pointer;
+border-radius: 25%;
+}
+
+#zero{
+    font-size: 1.5rem;
+    cursor: pointer;
+    bottom: none;
 }
