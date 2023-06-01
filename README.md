@@ -21,7 +21,5 @@
 |  17/05/2023   | -[Work13](https://github.com/Sainozhenko/frontend/tree/master/13_JS_Promies_17_05_2023)    | -[Work13.1](https://github.com/Sainozhenko/frontend/tree/master/13_JS_JSONPlaceHolder_17_05_2023) |
 |  22/05/2023   | -[Work14](https://github.com/Sainozhenko/frontend/tree/master/14_JS_AsyncAwait_22_05_2023)    | 23/05/2023 -[Consultation9](https://github.com/Sainozhenko/frontend/tree/master/seminars/JSONPLaceHolder_AsyncAwait_23_05_2023) |
 |  24/05/2023   | -[Work15](https://github.com/Sainozhenko/frontend/tree/master/15_JS_WeatherApp_24_05_2023)    | -[Consultation10](https://github.com/Sainozhenko/frontend/tree/master/seminars/Consultation10) |
-|  25/05/2023   | -[Work16](https://github.com/Sainozhenko/frontend/tree/master/16_react_intro)    | - - - - |
-
-
-
+|  25/05/2023   | -[Work16](https://github.com/Sainozhenko/frontend/tree/master/16_react_intro)    | [Homework17R](https://github.com/Sainozhenko/frontend/tree/master/17_homework_react) |
+|  30/05/2023   | -[Work17](https://github.com/Sainozhenko/frontend/tree/master/17_homework_ts)    |[Homework17RTS](https://github.com/Sainozhenko/frontend/tree/master/17_homework1_tsgit )  |
