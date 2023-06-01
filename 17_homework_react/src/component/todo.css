@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container input[type='text'] {
+    padding: 10px;
+    font-size: 16px; /* 1rem */
+    width: 300px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#taskList{
+    text-align: left;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    padding: 20px 40px 20px 55px;
+}
+
+#taskList:has(li) {
+    border: 1px solid red;
+}
+
+#taskList > li {
+    margin-bottom: 10px;
+}
+
+#taskList > li > span {
+    margin: 0 10px;
+}
+
+#taskList > li > button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #00ff3c;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
