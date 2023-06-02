@@ -1,0 +1,21 @@
+#taskList {
+    width: fit-content;
+    margin: 20px auto 0;
+}
+
+.task {
+    border: 1px solid black;
+    padding: 30px 30px 30px 20px;
+}
+
+.task > li {
+    list-style-type: none;
+}
+
+.task > li > span {
+    padding: 0 10px 0 0;
+}
+
+.task > li > button {
+    margin: 0 0 0 10px;
+}
