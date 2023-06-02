@@ -23,3 +23,4 @@
 |  24/05/2023   | -[Work15](https://github.com/Sainozhenko/frontend/tree/master/15_JS_WeatherApp_24_05_2023)    | -[Consultation10](https://github.com/Sainozhenko/frontend/tree/master/seminars/Consultation10) |
 |  25/05/2023   | -[Work16](https://github.com/Sainozhenko/frontend/tree/master/16_react_intro)    | [Homework17R](https://github.com/Sainozhenko/frontend/tree/master/17_homework_react) |
 |  30/05/2023   | -[Work17](https://github.com/Sainozhenko/frontend/tree/master/17_homework_ts)    |[Homework17TS](https://github.com/Sainozhenko/frontend/tree/master/17_homework1_tsgit )  |
+|  02/06/2023   | -[Work18](https://github.com/Sainozhenko/frontend/tree/master/17_hw)    |[Consultation11](https://github.com/Sainozhenko/frontend/tree/master/seminars/hookusestate_map)  |
