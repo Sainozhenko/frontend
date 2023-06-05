@@ -68,6 +68,7 @@ const TodoList: React.FC = (): JSX.Element => {
     const handleIsDone = (e: ChangeEvent<HTMLInputElement>) => {
         // в переменную check кладём актульное значение поля checked у event.target
         setCheck(e.target.checked);
+        //setCheck((prev)=>!prev) изменяем check на обартное значения
         // console.log(e);
         // Создаётся копия массива
         const copy = [...tasksList];
