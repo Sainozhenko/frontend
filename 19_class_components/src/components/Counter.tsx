@@ -57,6 +57,7 @@ class Counter extends React.Component<{initialValue: number}, ICounterState> {
     componentWillUnmount(): void {
         console.log('Компонент будет удалён');
     }
+    
 
     // в методе render(), после ключевого слова return начинается JSX синтаксис, где мы описываем
     // вёрстку компонента (полный аналог того, что в FC пишется после ключевого слова return)
