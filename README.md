@@ -26,5 +26,7 @@
 |  02/06/2023   | -[Work18](https://github.com/Sainozhenko/frontend/tree/master/17_hw)    |[Consultation11](https://github.com/Sainozhenko/frontend/tree/master/seminars/hookusestate_map)  |
 |  05/06/2023   | -[Work19](https://github.com/Sainozhenko/frontend/tree/master/19_class_components)    |    |
 |  07/06/2023   | -[Work20](https://github.com/Sainozhenko/frontend/tree/master/20_router)    | [Work20.1](https://github.com/Sainozhenko/frontend/tree/master/20_router_fetch)   |
+|  09/06/2023   | -[Work21](https://github.com/Sainozhenko/frontend/tree/master/21_context)    | [Consultation12](https://github.com/Sainozhenko/frontend/seminars/)   |
+
 
 [Go To ↑ TOP](#TOP)
