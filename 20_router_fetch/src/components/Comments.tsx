@@ -1,5 +1,5 @@
-import React from "react";
-import { IComment } from "../utils/util";
+import React, {useContext} from "react";
+import { IComment,AppContext } from "../utils/util";
 
 // interface IComment {
 //     id: number;
@@ -7,10 +7,14 @@ import { IComment } from "../utils/util";
 // }
 
 const Comments: React.FC<{ comments: IComment[] }> = ({ comments }) => {
+
+    const dataFromAppContext = useContext(AppContext);
+    const commentsFromAppContext = dataFromAppContext?.comments|| [];
+    
     return (
         <>
             <h2>Comments</h2>
-            {comments.map(comment => (
+            {commentsFromAppContext.map(comment => (
                 <div key={comment.id} className='user'>
                     <p>Body: {comment.body}</p>
                 </div>

@@ -1,5 +1,4 @@
-import React from "react";
-
+import { createContext } from 'react';
 
 export interface IUser {
     id: number;
@@ -17,3 +16,13 @@ export interface IPost {
     title: string;
     body: string;
 }
+
+//interface IAppData описывает весь набор данных, который можно будет передавать из App в дочерние элемент
+export interface IAppData {
+    users: IUser[],
+    comments: IComment[],
+    posts: IPost[]
+}
+//Создаём контекст и экспортируем его 
+// export const Context = createContext<IUser[]>([]);
+export const AppContext = createContext<IAppData|null>(null);

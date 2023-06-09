@@ -4,7 +4,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import Users from "./components/Users";
 import Posts from "./components/Posts";
 import Comments from "./components/Comments";
-import { IComment, IPost,IUser } from "./utils/util";
+import { AppContext, IComment, IPost,IUser } from "./utils/util";
 
 const baseUrl = "https://jsonplaceholder.typicode.com";
 
@@ -66,6 +66,8 @@ const fetchData = async (menuItem: MenuItems) => {
 };
 
   return (
+    <AppContext.Provider value={{users, comments, posts}}>
+    {/* <Context.Provider value={users}> */}
     <Routes>
       {/* В Route в атрибуте path указывается путь, по которому будет отображён
       тот компонент, который указан в атрибуте element */}
@@ -81,6 +83,8 @@ const fetchData = async (menuItem: MenuItems) => {
       <Route path="/posts" element={<Posts posts={posts}/>} />
       <Route path="/comments" element={<Comments comments={comments}/>} />
     </Routes>
+    {/* </Context.Provider> */}
+    </AppContext.Provider>
   );
 }
 

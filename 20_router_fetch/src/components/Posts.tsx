@@ -1,5 +1,5 @@
-import React from "react";
-import { IPost } from "../utils/util";
+import React,{useContext} from "react";
+import {AppContext, IPost } from "../utils/util";
 
 // interface IPost {
 //     id: number;
@@ -8,10 +8,14 @@ import { IPost } from "../utils/util";
 // }
 
 const Posts: React.FC<{ posts: IPost[] }> = ({ posts }) => {
+
+    const dataFromAppContext = useContext(AppContext);
+    const postsFromAppContext = dataFromAppContext?.posts|| [];
+
     return (
         <>
             <h2>Posts</h2>
-            {posts.map(post => (
+            {postsFromAppContext.map(post => (
                 <div key={post.id} className='user'>
                     <p>Title: {post.title}</p>
                     <p>Body: {post.body}</p>
