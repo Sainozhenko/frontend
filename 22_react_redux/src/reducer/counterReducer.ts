@@ -1,4 +1,4 @@
-import { CounterAction } from "../actions/CounterAction";
+import { CounterAction } from "../actions/counterAction";
 
 interface CounterState {
     count: number;
@@ -8,7 +8,7 @@ const initialState: CounterState = {
     count: 0,
 };
 
-// reducer в качестве параметров принимает state и action
+// reducer в качестве параметров принимает state и action и возвращает всегда (!) обновленный state
 const counterReducer = (
     state = initialState,
     action: CounterAction
