@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import { useDispatch,useSelector } from 'react-redux';
-import { RootState } from './store/store';
 import DataFetcher from './components/DataFetcher';
 import { setComments, setPosts, setUsers } from './reducer/reducers';
 import Posts from './components/Posts';
