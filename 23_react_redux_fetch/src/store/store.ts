@@ -1,12 +1,20 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import usersReducer from '../reducer/reducers';
+import dataSlice from '../reducer/reducers';
 
-export const store = configureStore({
-    reducer: usersReducer
-})
+// 2.2 В rootReducer комбинируем все имеющиеся у нас reducer
 const rootReducer = combineReducers({
-    users: usersReducer
+    data: dataSlice,
 })
+
+// 2.1 Создаём store в котором передаём информацию о reducer,
+//     который комбинирует в себе остальные redusers
+export const store = configureStore({
+    reducer: rootReducer
+})
+
+// export const store1 = configureStore({
+//     reducer: {data: dataSlice}
+// })
 
 export type RootState = ReturnType<typeof rootReducer>;
 export default rootReducer;
