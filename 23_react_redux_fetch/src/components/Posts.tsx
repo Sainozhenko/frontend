@@ -6,10 +6,14 @@ const Posts: React.FC = () => {
     // Любое изменение глобального state производим внутри метода dispatch()
     const dispatch = useDispatch();
     // С помощью хука useSelector() получаем информацию из глобального state
-    const posts = useSelector((state: {data: DataState}) => state.data.posts);
-    const currentPage = useSelector((state: {data: DataState}) => state.data.currentPagePosts);
-    const postsPerPage = useSelector((state: {data: DataState}) => state.data.postsPerPage);
-    
+
+    //DRY- don`t repeat yourself 
+    // const posts = useSelector((state: {data: DataState}) => state.data.posts);
+    // const currentPage = useSelector((state: {data: DataState}) => state.data.currentPagePosts);
+    // const postsPerPage = useSelector((state: {data: DataState}) => state.data.postsPerPage);
+ 
+    const {posts, currentPage, postsPerPage} = useSelector((state:{data:DataState})=> state.data);
+
     // Индекс последнего поста на странице
     const indexOfLastPost = currentPage * postsPerPage;
     // Индекс первого поста на странице
