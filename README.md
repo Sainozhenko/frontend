@@ -30,5 +30,6 @@
 |  12/06/2023   | -[Work22](https://github.com/Sainozhenko/frontend/tree/master/22_react_redux)    |14/06/23-[Work23](https://github.com/Sainozhenko/frontend/tree/master/23_react_redux_fetch)  |
 |  14/06/2023   | -[Work23](https://github.com/Sainozhenko/frontend/tree/master/23_react_redux_fetch)    |[Consultation13](https://github.com/Sainozhenko/frontend/tree/master/seminars/react-14_06_2023)  |
 |  16/06/2023   | -[Work24](https://github.com/Sainozhenko/frontend/tree/master/23_react_redux_fetch)UPDATE!   |[Consultation14](https://github.com/Sainozhenko/frontend/tree/master/seminars/weather_react_redux)  |
+|  19/06/2023   | -[Work25](https://github.com/Sainozhenko/frontend/tree/master/25pizza_react_redux)   | |
 
 [Go To ↑ TOP](#TOP)
