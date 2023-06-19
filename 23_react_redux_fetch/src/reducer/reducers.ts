@@ -18,7 +18,7 @@ interface IComment {
 }
 interface IPhotos {
     id: number;
-    url: string;
+    thumbnailUrl: string;
     title: string
 }
 
@@ -35,7 +35,6 @@ export interface DataState {
     commentsPerPage: number;
     currentPagePhotos: number;
     photosPerPage: number;
-
 }
 
 // 3.3 Описываю стартовое значение глобального состояния
@@ -49,7 +48,7 @@ const initialState: DataState = {
     currentPagePosts: 1,
     currentPageComments: 1,
     currentPagePhotos: 1,
-    photosPerPage:1,
+    photosPerPage:5
 }
 
 // 3.1 Выделяем отдельно логику части(slice) приложения с определёнными инструментами для
@@ -80,8 +79,7 @@ const dataSlice = createSlice({
         },
         setPhotos: (state, action: PayloadAction<IPhotos[]>) => {
             state.photos = action.payload;
-        },
-
+        }
     }
 })
 
