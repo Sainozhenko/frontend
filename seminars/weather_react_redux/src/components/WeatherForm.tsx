@@ -7,7 +7,7 @@ const WeatherForm:React.FC = () => {
     const [city,setCity]= useState('');
     const dispatch = useDispatch();
 
-    const handleSubmit = (e:React.FormEvent)=>{
+    const handleSubmit = (e:React.FormEvent<HTMLFormElement>)=>{
         e.preventDefault();
         dispatch(fetchWeather(city));
         setCity('');

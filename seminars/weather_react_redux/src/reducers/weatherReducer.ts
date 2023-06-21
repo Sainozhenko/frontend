@@ -51,7 +51,7 @@ export const{
     fetchWeatherFailure
 } = weatherSlice.actions;
 
-export const fetchWeather = (city:string) => {
+export const fetchWeather = (city:string):any => {
     return async(dispatch:AppDispatch) => {
         try{
            dispatch(fetchWeatherStart());
