@@ -1,4 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+
+
 interface InterfaceItem {
     id: number;
     name: string;
@@ -62,7 +64,9 @@ const cartSlice = createSlice({
     }
 });
 
-// export const seelctCart = (state)=> state.cart;
+export const selectCart = (state = initialState)=> state;
+
+export const selectCartItemById = (id:number)=> (state:any)=> state.cart.items.find((item:InterfaceItem)=> item.id === id)
 
 export const {
     addToCart,
