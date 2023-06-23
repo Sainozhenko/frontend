@@ -1,0 +1,26 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4px;
+  margin-bottom: 16px;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+}
+
+.game {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 16px;
+}
