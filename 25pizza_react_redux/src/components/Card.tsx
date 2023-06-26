@@ -1,12 +1,12 @@
 import React from 'react'
-import { selectCart, selectCartItemById } from '../redux/slices/cartSlice';
-import { selectItemsData, setItem } from '../redux/slices/itemsSlice';
-import { useSelector } from 'react-redux';
-import { selectFilter } from '../redux/slices/filterSlice';
-import { useDispatch } from 'react-redux';
+import {selectCartItemById } from '../redux/slices/cartSlice';
+import {setItem } from '../redux/slices/itemsSlice';
+import {useSelector } from 'react-redux';
+import {selectFilter } from '../redux/slices/filterSlice';
+import {useDispatch } from 'react-redux';
 
 
-interface CardItem {
+export interface CardItem {
     id: string;
     images: string[];
     title: string;
@@ -24,7 +24,7 @@ const Card:React.FC<CardItem> = ({
 }) => { 
     // const {activeSize, activeType} = useSelector(selectItemsData);
 
-    const counter = useSelector(selectCartItemById(+id));
+    const counter = useSelector(selectCartItemById(id));
     const count: number = counter;
     const {categoryName} = useSelector(selectFilter);
     const isCategory = categoryName === 'Закрытые'
