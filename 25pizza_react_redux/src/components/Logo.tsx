@@ -11,7 +11,7 @@ const Logo: React.FC<LogoProps> = ({ className }) => {
     <Link to="/" className={`logo ${className}`}>
       <img src={logo} alt="Логотип Реакт Пицца" className="logo__image" />
       <div className="logo__block">
-        <h1 className="logo__title">React Pizza</h1>
+        <h1 className="logo__title">Online Pizza</h1>
         <p className="logo__subtitle">самая вкусная пицца только у нас</p>
       </div>
     </Link>
