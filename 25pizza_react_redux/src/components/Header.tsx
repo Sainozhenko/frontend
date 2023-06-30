@@ -1,18 +1,17 @@
-import React from 'react'
-import HeaderCart from './HeaderCart';
-import Logo from './Logo'
-import Search from './Search';
+import React from "react";
+import Search from "./SearchForm";
+import Logo from "./Logo";
+import HeaderCart from "./HeaderCart";
 
-const Header:React.FC = () => {
+const Header: React.FC = () => {
   return (
-  <header>
-    <div>
-        <Logo/>
-        <HeaderCart/>
-    </div>
-    <Search/>
-  </header>
-  
+    <header className="header">
+      <div className="header__row">
+        <Logo className="header__logo" />
+        <HeaderCart />
+      </div>
+      <Search />
+    </header>
   );
 };
 

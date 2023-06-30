@@ -1,22 +1,28 @@
-import React from 'react'
-import {onClickCategory, selectFilter} from '../redux/slices/filterSlice'
-import { useSelector } from 'react-redux'
-import { useDispatch } from 'react-redux';
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { onClickCategory, selectFilter } from "../redux/slices/filterSlice";
 
-const Categories:React.FC = () => {
-    const state:{categoryId:number, categoryNames:string[]} = useSelector(selectFilter);
-    const dispatch = useDispatch();
+const Categories: React.FC = () => {
+  const { categoryId, categoryNames } = useSelector(selectFilter);
+  const dispatch = useDispatch();
+
   return (
-    <ul>
-      {state.categoryNames.map((name:string,index:number)=>(
-        <li key={index}>
-            <button
-            onClick={()=>dispatch(onClickCategory(index))}
-            >{name}</button>
+    <ul className="categories">
+      {categoryNames.map((name: string, index: number) => (
+        <li className="categories__item" key={index}>
+          <button
+            type="button"
+            className={`categories__button button button_type_light ${
+              categoryId === index ? "categories__button_active" : ""
+            }`}
+            onClick={() => dispatch(onClickCategory(index))}
+          >
+            {name}
+          </button>
         </li>
       ))}
     </ul>
-  )
-}
+  );
+};
 
 export default Categories;

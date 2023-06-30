@@ -1,18 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.svg";
 
-const Logo = () => {
+type LogoProps = {
+  className: string;
+};
+
+const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
-    <div>
-      <img 
-      src="" 
-      alt="Логотип Реакт Пицца" 
-      />
-    <div>
-        <h1>React Pizza</h1>
-        <p>Best pizza herel</p>
-        </div>
-        </div>
-    
+    <Link to="/" className={`logo ${className}`}>
+      <img src={logo} alt="Логотип Реакт Пицца" className="logo__image" />
+      <div className="logo__block">
+        <h1 className="logo__title">React Pizza</h1>
+        <p className="logo__subtitle">самая вкусная пицца только у нас</p>
+      </div>
+    </Link>
   );
 };
 

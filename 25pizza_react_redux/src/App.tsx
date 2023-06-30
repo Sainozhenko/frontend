@@ -1,13 +1,24 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Homework from './components/Homework';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Cart from "./pages/Cart";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Search from "./pages/Search";
+import Pizza from "./pages/Pizza";
+import MainLayout from "./layout/MainLayout";
 
 function App() {
   return (
     <div className="App">
-     {/* <Header/> */}
-     <Homework/>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/pizza/:id" element={<Pizza />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
